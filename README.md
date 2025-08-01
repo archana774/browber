@@ -23,8 +23,8 @@
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [HTML5,CSS3,Javascript(ES6)]
-- [Visual Studio Code,Web Browser,Local Development Server]
+- [languages used : HTML5,CSS3,Javascript(ES6)]
+- [Tools used : Visual Studio Code,Web Browser,Local Development Server]
 
 
 ### Implementation
@@ -40,50 +40,31 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/Capture1.PNG" />](Add screenshot 1 here with proper name)
+*This shows the opening page asking to upload your image*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/capture2.PNG" />](Add screenshot 2 here with proper name)
+*This shows different eyebrow shape layout which can be aligned accordingly*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/capture3.PNG" />](Add screenshot 3 here with proper name)
+*This show the final number of hair that has to be plucked*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+*The user starts by uploading a photo, which transitions the UI from the upload view to the interactive try-on editor. In the editor, the user can cycle through different eyebrow styles, adjust the overlay's position and scale for a perfect fit, and finally click a button to receive a randomized "pluck count" for the selected style*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Archana K]: [ideation,backend]
+- [Alena Saji]: [frontend]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
