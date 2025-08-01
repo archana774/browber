@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrowBer - Find Your Fun Brow Destiny!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>BrowBer 🤨</h1>
+        <p>Take the high-stakes world of eyebrow shaping and make it delightfully absurd.</p>
+    </header>
+
+    <main>
+        <div id="app-container">
+            <!-- Step 1: Upload Section -->
+            <div id="upload-section">
+                <h2>1. Upload Your Photo</h2>
+                <p>Upload a clear, forward-facing photo. No filters, you natural beauty!</p>
+                <input type="file" id="photo-upload" accept="image/*" hidden>
+                <button id="upload-button">Choose Photo</button>
+            </div>
+
+            <!-- Step 2: Try-On Section -->
+            <div id="try-on-section" class="hidden">
+                <div id="image-wrapper">
+                    <img id="user-photo" src="#" alt="Your beautiful face">
+                    
+                    <!-- CORRECTED: The overlay image is now inside a container div -->
+                    <div id="overlay-container">
+                        <img id="eyebrow-overlay" src="images/pic1-removebg-preview.png" alt="Eyebrow Style Overlay">
+                    </div>
+
+                </div>
+
+                <div id="controls">
+                    <button id="prev-style">⬅️</button>
+                    <div id="style-info">
+                        <h3 id="style-name">Style Name</h3>
+                        <p id="pluck-count">Pluck count info here</p>
+                        <small id="tooltip">Tooltip will show here</small>
+                    </div>
+                    <button id="next-style">➡️</button>
+                </div>
+
+                <div id="adjustment-controls">
+                    <p class="adjustment-title">Fine-Tune Your Look</p>
+                    <button id="move-up">⬆️</button>
+                    <button id="move-down">⬇️</button>
+                    <button id="move-left">⬅️</button>
+                    <button id="move-right">➡️</button>
+                    <button id="scale-up">➕</button>
+                    <button id="scale-down">➖</button>
+                    <button id="reset-adj">Reset</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>BrowBer: A Fun, Slightly Useless Decision-Making Aid™</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
