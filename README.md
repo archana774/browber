@@ -40,7 +40,7 @@ git clone https://github.com/archana774/BrowBer.git
 cd BrowBer
 
 # Run
-Directly open the index.html file
+Directly open this file :"https://browber.vercel.app/"
 
 ### Project Documentation
 For Software:
