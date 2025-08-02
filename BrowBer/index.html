@@ -28,19 +28,22 @@
             <div id="try-on-section" class="hidden">
                 <div id="image-wrapper">
                     <img id="user-photo" src="#" alt="Your beautiful face">
-                    
-                    <!-- CORRECTED: The overlay image is now inside a container div -->
                     <div id="overlay-container">
                         <img id="eyebrow-overlay" src="images/pic1-removebg-preview.png" alt="Eyebrow Style Overlay">
                     </div>
-
                 </div>
 
                 <div id="controls">
                     <button id="prev-style">⬅️</button>
                     <div id="style-info">
                         <h3 id="style-name">Style Name</h3>
-                        <p id="pluck-count">Pluck count info here</p>
+                        <button id="count-button">How many hairs to pluck?</button>
+                        
+                        <!-- ============================================= -->
+                        <!-- NEW: This is where the result message will appear -->
+                        <!-- ============================================= -->
+                        <p id="pluck-result-message"></p>
+                        
                         <small id="tooltip">Tooltip will show here</small>
                     </div>
                     <button id="next-style">➡️</button>
