@@ -49,7 +49,7 @@ For Software:
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/Capture1.PNG" />
 *This shows the opening page asking to upload your image*
 
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/capture2.PNG" />
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/Capture2.PNG" />
 *This shows different eyebrow shape layout which can be aligned accordingly*
 
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/Capture3.PNG" />
