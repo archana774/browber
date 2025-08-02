@@ -142,3 +142,56 @@ footer {
 #adjustment-controls #reset-adj {
     background-color: #ffb6c1; /* LightPink */
 }
+/* Add these new rules to your style.css file */
+
+#count-button {
+    background-color: #a0d6b4; /* A pleasant pastel green */
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 8px 0;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+}
+
+#count-button:hover {
+    transform: scale(1.05);
+}
+/* Add these new rules to your style.css file */
+
+#count-button {
+    background-color: #a0d6b4; /* A pleasant pastel green */
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 8px 0;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+}
+
+#count-button:hover {
+    transform: scale(1.05);
+}
+
+/* Style for the new result message */
+#pluck-result-message {
+    font-weight: 600;
+    color: #ff69b4; /* HotPink for emphasis */
+    margin: 10px 0 0 0; /* Add some space on top */
+    height: 0; /* Start with no height to be invisible */
+    opacity: 0; /* Start fully transparent */
+    transition: all 0.4s ease; /* Smooth transition for all properties */
+    overflow: hidden; /* Hide content when height is 0 */
+}
+
+/* This class will be added by JavaScript to show the message */
+#pluck-result-message.visible {
+    height: 20px; /* Animate height to this value to push content down */
+    opacity: 1; /* Fade the text in */
+}
