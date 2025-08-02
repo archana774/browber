@@ -52,7 +52,7 @@ For Software:
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/capture2.PNG" />
 *This shows different eyebrow shape layout which can be aligned accordingly*
 
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/capture3.PNG" />
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/archana774/browber/blob/main/Capture3.PNG" />
 *This show the final number of hair that has to be plucked*
 
 
